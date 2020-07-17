@@ -17,6 +17,9 @@
         margin: 0 auto 4em;
         color: #222;
       }
+      td {
+        font-size: small;
+      }
       main {
         margin: 0 auto;
       }
@@ -46,6 +49,22 @@
       h1 + h2 {
         margin-top: 0;
         margin-bottom: 2em;
+      }
+      table {
+        margin-left: 2em;
+      }
+      @media screen and (max-width: 500px) {
+        table {
+          margin-left: 1em;
+        }
+      }
+      td {
+        padding-bottom: 1em;
+      }
+      td.price {
+        text-align: right;
+        padding-left: 1em;
+        white-space: nowrap;
       }
       .banner {
         background-color: rgb(165, 28, 48);
@@ -230,9 +249,30 @@
         The full course will be much longer. It will have everything you need to
         know to pass AP CS A, including exercises.
       </p>
-      <h2>Special for early buyers of the short course</h2>
+      <h2>Price</h2>
       <p>
-        If I create a full course and you buy it, I plan to deduct ➡️ 150% ⬅️ of
+        I haven’t decided on a price yet but I expect it to be something like this:
+      </p>
+      <table>
+        <tbody>
+          <tr>
+            <td>Short course</td>
+            <td class="price">$50 - $150 USD</td>
+          </tr>
+          <tr>
+            <td>Full course</td>
+            <td class="price">$750 - $1,250 USD</td>
+          </tr>
+          <tr>
+            <td>Short course + full course for early buyers</td>
+            <td class="price">$675 - $1,025 USD</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Special for early buyers of the short course</h2>
+      <p>Did you notice the short course + full course is <strong>cheaper?</strong></p>
+      <p>
+        That’s because If I create a full course and you buy it, I plan to <strong>deduct ➡️ 150% ⬅️</strong> of
         the short-course price from the full course. But only for early buyers of
         the short course.
       </p>
